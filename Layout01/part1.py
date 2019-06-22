@@ -1,1 +1,11 @@
-from tkinter import * 
+from tkinter import *
+root = Tk()
+# minimum  size  of window minsize(width,height)
+root.minsize(350,250)
+# maximum size of Window maxsize(width,height)
+root.maxsize(733,434)
+# maximum size of Window maxsize("width x height")
+root.geometry("550x450")
+label_1 = Label(text="Welcome Apoorv Verma")
+label_1.pack()
+root.mainloop()
